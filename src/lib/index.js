@@ -5,7 +5,6 @@ const { Book, Author, Subject } = require('../models');
 
 const walkDir = promisify(glob);
 
-// const id = // (will be a number with 0-5 digits)
 const KEYS = {
   publisher: 'dcterms:publisher',
   publicationDate: 'dcterms:issued',

@@ -1,3 +1,4 @@
+/* eslint-disable no-await-in-loop */
 /* eslint-disable no-console */
 const fs = require('fs');
 const { chunk } = require('lodash');

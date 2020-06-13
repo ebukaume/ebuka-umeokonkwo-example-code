@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// const { getIds, enumerateFiles } = require('../lib');
 
 const authorSchema = new mongoose.Schema({ name: String });
 authorSchema.index({ name: 1 });
